@@ -10,6 +10,7 @@ public class Problem_02_PrimeNumber {
     public static void main(String[] args) {
 
         // Scanner object for taking the input
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number");
         int number = sc.nextInt();
